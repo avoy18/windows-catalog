@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background: #f6fbff;
 }
 
 a {
@@ -459,8 +460,6 @@ body {
 }
 
 
-
-
 .content__row--direction-row {
     display: flex;
     flex-direction: row;
@@ -561,7 +560,7 @@ body {
 }
 
 .product-grid__item-image--featured {
-    box-shadow: 0px 20px 52px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 20px 52px rgba(0, 0, 0, 0.1);
     object-fit: contain
 }
 
@@ -575,7 +574,7 @@ body {
     margin: 0;
     margin-bottom: 80px;
     user-select: none;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 
@@ -931,6 +930,7 @@ body {
 .hamburger {
     outline: none;
     padding: 0;
+    display:none;
 }
 
 
@@ -1386,7 +1386,7 @@ body {
     }
 
     .hamburger {
-        display: none;
+        display: block;
     }
 
     .static-header__title {
