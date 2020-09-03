@@ -157,10 +157,13 @@ table {
 }
 
 /* MEDIA QUERIES */
+
+
 body {
     font-family: "Lato", sans-serif;
     font-size: 20px;
 }
+
 
 .link {
     display: flex;
@@ -269,6 +272,7 @@ body {
 .button--std {
     background-color: #2f8ad2;
     color: #FFFFFF;
+    transition:0.15s;
 }
 
 .button--std svg {
@@ -281,11 +285,11 @@ body {
 }
 
 .button--std:hover {
-    background-color: #5C9174;
+    background-color: #384647;
 }
 
 .button--std:active {
-    background-color: #547567;
+    background-color: #384647;
 }
 
 .button--large-icon {
@@ -381,7 +385,7 @@ body {
     fill: #384647;
 }
 
-.products-page .nav--dark .hamburger__icon-path {
+.nav-v2 .nav--dark .hamburger__icon-path {
     fill: #fff;
 }
 
@@ -1006,7 +1010,7 @@ body {
     z-index: 99;
 }
 
-.header-inner.products-page {
+.header-inner.nav-v2 {
     background-color: transparent;
 }
 
@@ -1159,6 +1163,10 @@ body {
     border-top: solid 1px #F0F0F0;
 }
 
+/* Product/Contact */
+.product-single .content__row, .contact-page .content__row{
+    padding-left:0px;
+}
 
 /*---------------------------
 --
