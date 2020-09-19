@@ -441,7 +441,7 @@ body {
 }
 
 .header-wrapper {
-  background-image: url(./images/bg-windows.jpg);
+  background-image: url(./../images/bg-windows.jpg);
 }
 
 .content {
@@ -609,7 +609,7 @@ body {
 }
 
 .product__background-left {
-  background-image: url(./images/bg-windows.jpg);
+  background-image: url(./../images/bg-windows.jpg);
 }
 
 .product__background-left-overlay,
