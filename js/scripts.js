@@ -602,15 +602,15 @@
     if (hamburgerMenuContent.classList.contains('hamburger__content--closed')) {
       hamburgerMenuContent.classList.add('hamburger__content--opened')
       hamburgerMenuContent.classList.remove('hamburger__content--closed')
-      nav.classList.remove('nav--light')
-      nav.classList.add('nav--dark')
-      logo.src = '/images/logo.svg'
+      // nav.classList.remove('nav--light')
+      // nav.classList.add('nav--dark')
+      logo.src = document.querySelector('.js-logoselect').dataset.burgerlogo || '/images/windowCO.svg';
       toggleScroll()
     } else {
       hamburgerMenuContent.classList.add('hamburger__content--closed')
       hamburgerMenuContent.classList.remove('hamburger__content--opened')
-      nav.classList.remove('nav--dark')
-      nav.classList.remove('nav--light')
+      // nav.classList.remove('nav--dark')
+      // nav.classList.remove('nav--light')
       nav.classList.add(originalHeaderColor)
       logo.src = originalLogo
       toggleScroll()

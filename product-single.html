@@ -20,7 +20,8 @@
             <nav class="nav nav--dark">
                 <div class="nav__logo">
                     <a href="/">
-                        <img src="/images/windowCO.svg" alt="Planty logo" class="footer_logo nav__logo-image">
+                        <img src="/images/windowCO.svg" data-burgerlogo="/images/windowCO.svg" alt="Planty logo"
+                            class="js-logoselect nav__logo-image">
                     </a>
                 </div>
                 <ul class="nav__menu">
@@ -130,8 +131,25 @@
                 </div>
 
                 <article class="product__description">
-                    Suspendisse efficitur eget erat sit amet efficitur.
+                    <p>Suspendisse efficitur eget erat sit amet efficitur.</p>
                 </article>
+
+                <form action="" class="site-form">
+                    <div class="site-form__control">
+                        <label for="name">Name</label>
+                        <input required="" name="name" id="name" type="text" placeholder="John Doe">
+                    </div>
+                    <div class="site-form__control">
+                        <label for="email">Email</label>
+                        <input required="" name="email" type="email" id="email" placeholder="jdoe@email.com">
+                    </div>
+
+                    <button type="submit" class="button button--std">
+                        <span class="button__text">
+                            Send a request
+                        </span>
+                    </button>
+                </form>
 
 
             </div>
@@ -161,7 +179,7 @@
                     <div class="product-grid__definition">
                         <h3 class="product-grid__title"> <a href="/product-single.html"> Customizable Window</a> </h3>
                         <span class="product-grid__category"> General Windows </span>
-<span class="product-grid__price"> $49.40 </span>
+                        <span class="product-grid__price"> $49.40 </span>
                     </div>
                 </li>
 
@@ -181,7 +199,7 @@
                     <div class="product-grid__definition">
                         <h3 class="product-grid__title"> <a href="/product-single.html"> Customizable Window</a> </h3>
                         <span class="product-grid__category"> General Windows </span>
-<span class="product-grid__price"> $49.40 </span>
+                        <span class="product-grid__price"> $49.40 </span>
                     </div>
                 </li>
                 <li class="product-grid__item">
@@ -200,7 +218,7 @@
                     <div class="product-grid__definition">
                         <h3 class="product-grid__title"> <a href="/product-single.html"> Customizable Window</a> </h3>
                         <span class="product-grid__category"> General Windows </span>
-<span class="product-grid__price"> $49.40 </span>
+                        <span class="product-grid__price"> $49.40 </span>
                     </div>
                 </li>
                 <li class="product-grid__item">
@@ -219,7 +237,7 @@
                     <div class="product-grid__definition">
                         <h3 class="product-grid__title"> <a href="/product-single.html"> Customizable Window</a> </h3>
                         <span class="product-grid__category"> General Windows </span>
-<span class="product-grid__price"> $49.40 </span>
+                        <span class="product-grid__price"> $49.40 </span>
                     </div>
                 </li>
 
@@ -247,7 +265,7 @@
         <div class="footer__container">
             <a href="/">
 
-                <img src="/images/windowCO.svg" alt="Planty logo" class="footer_logo nav__logo-image">
+                <img src="/images/windowCO.svg" alt="Planty logo" class="footer__logo nav__logo-image">
 
             </a>
             <ul class="footer__nav">
